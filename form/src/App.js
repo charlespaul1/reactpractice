@@ -11,7 +11,7 @@ function App() {
       alert("please provide a comment explaining why the experience was poor")
     }
   }
-  const [score, setScore] = useState("10");
+  const [score, setScore] = useState("10"); 
   const [comment, setComment] = useState('');
   return (
        <div className="App">
