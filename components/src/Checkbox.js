@@ -1,5 +1,6 @@
 import { useState } from "react";
 function Checker(){
+    /*adding state to a component */
     const [liked, setLiked] = useState(true);
     function handleChange(e){
         setLiked(e.target.checked)
