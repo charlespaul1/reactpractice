@@ -1,0 +1,16 @@
+.faq {
+  display: flex;
+}
+.btn {
+  border: none;
+  border-radius: 50rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  background:  blueviolet;
+}
+.btn:hover::before {
+  opacity: 8;
+  background-color: aqua;
+}
